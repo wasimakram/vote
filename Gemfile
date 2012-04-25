@@ -47,6 +47,3 @@ gem "will_paginate", ">= 3.0.3"
 
 #PAAS
 gem "heroku"
-
-#javascript runtime
-gem "therubyracer"
