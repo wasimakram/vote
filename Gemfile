@@ -44,3 +44,9 @@ gem "bootstrap-sass", ">= 2.0.1"
 gem "simple_form"
 gem "rails-footnotes", ">= 3.7", :group => :development
 gem "will_paginate", ">= 3.0.3"
+
+#PAAS
+gem "heroku"
+
+#javascript runtime
+gem "therubyracer"
