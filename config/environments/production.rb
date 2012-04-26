@@ -6,7 +6,7 @@ Vote::Application.configure do
     twitter_app_id:  "8a8VjBMEvWECkMMzf71u9g",
     twitter_app_secret:  "3No8y5c2FS8zcI0CmDkiHj1i8BvwKMCjEu5WWliT5XY",
     email:  "noreply@vote.pk",
-    password: "noreply@vote"
+    password: "noreply@vote",
     site_title: "Vote PK",
     site_description: "Vote.pk provides democratization for pakistan by conducting elections polls questionaires to have peoples opinion on important decisions.",
     site_keywords: "vote, democracy, pakistan",
