@@ -1,6 +1,18 @@
 Vote::Application.configure do
-  APP_CONFIG = YAML.load_file(Rails.root.join('config', 'config.yml'))['production']
   # Settings specified here will take precedence over those in config/application.rb
+  APP_CONFIG = {
+    fb_app_id:  "130013720456021"
+    fb_app_secret:  "7002fbe426ad6308977d5992a56fc653"
+    twitter_app_id:  "8a8VjBMEvWECkMMzf71u9g"
+    twitter_app_secret:  "3No8y5c2FS8zcI0CmDkiHj1i8BvwKMCjEu5WWliT5XY"
+    email:  "noreply@vote.pk"
+    password: "noreply@vote"
+    site_title: "Vote PK"
+    site_description: "Vote.pk provides democratization for pakistan by conducting elections polls questionaires to have peoples opinion on important decisions."
+    site_keywords: "vote, democracy, pakistan"
+    site_url: "vote.pk"
+  }
+
 
   # Code is not reloaded between requests
   config.cache_classes = true

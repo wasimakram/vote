@@ -1,5 +1,4 @@
 Vote::Application.configure do
-  APP_CONFIG = YAML.load_file(Rails.root.join('config', 'config.yml'))[Rails.env]
 
   # Settings specified here will take precedence over those in config/application.rb
 
