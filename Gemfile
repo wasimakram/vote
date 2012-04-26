@@ -46,4 +46,5 @@ gem "rails-footnotes", ">= 3.7", :group => :development
 gem "will_paginate", ">= 3.0.3"
 
 #PAAS
-gem "heroku"
+gem "heroku", :group => :development
+gem 'therubyracer'
