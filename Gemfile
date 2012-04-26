@@ -50,3 +50,9 @@ gem "heroku", :group => :development
 
 gem "omniauth-facebook"
 gem 'omniauth-twitter'
+
+#Styling
+gem 'bourbon'
+
+#Server
+gem 'unicorn', :group => :development

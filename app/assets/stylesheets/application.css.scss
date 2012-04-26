@@ -12,14 +12,20 @@
  *= require_tree .
 */
 
+@import "bourbon";
+
+$content-background-color: #eee;
+
 .content {
-  background-color: #eee;
+  background-color: $content-background-color;
   padding: 20px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
-  -webkit-border-radius: 0 0 6px 6px;
-  -moz-border-radius: 0 0 6px 6px;
-  border-radius: 0 0 6px 6px;
-  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-  box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  @include box-shadow(0 1px 2px rgba(0,0,0,.15));
+  @include border-radius(0 0 6px 6px);
+  @include transition(all, 500ms, ease-in-out);
+  &:hover{
+    background-color: lighten($content-background-color, 5%);
+  }
+
+
 }
