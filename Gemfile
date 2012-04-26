@@ -47,3 +47,5 @@ gem "will_paginate", ">= 3.0.3"
 
 #PAAS
 gem "heroku", :group => :development
+
+gem "omniauth-facebook"
