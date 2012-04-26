@@ -49,3 +49,4 @@ gem "will_paginate", ">= 3.0.3"
 gem "heroku", :group => :development
 
 gem "omniauth-facebook"
+gem 'omniauth-twitter'

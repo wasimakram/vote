@@ -9,6 +9,8 @@ Devise.setup do |config|
   require "omniauth-facebook"
   config.omniauth :facebook, APP_CONFIG['fb_app_id'], APP_CONFIG['fb_app_secret']
 
+  config.omniauth :twitter, APP_CONFIG['twitter_app_id'], APP_CONFIG['twitter_app_secret']
+
 
   # Configure the class responsible to send e-mails.
   # config.mailer = "Devise::Mailer"
